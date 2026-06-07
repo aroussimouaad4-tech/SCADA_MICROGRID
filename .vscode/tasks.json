@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": ".venv/Lib/site-packages/plotly/labextension",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - .venv/Lib/site-packages/plotly/labextension",
+			"detail": "npm run build:widget && npm run build:mimerenderer && npm run build:labextension"
+		}
+	]
+}
